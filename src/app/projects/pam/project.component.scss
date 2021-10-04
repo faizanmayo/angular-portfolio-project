@@ -1,0 +1,50 @@
+.project-card {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 400px;
+  padding: 16px 50px;
+  width: 95%;
+  p {
+    font-size: 13px;
+    line-height: 23px;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    margin-top: 15px;
+    text-align: justify;
+  }
+  .card-footer {
+    h2 {
+      margin: 0;
+      font-size: 18px;
+      line-height: 24px;
+      letter-spacing: 1px;
+      word-spacing: 3px;
+    }
+    span {
+      color: #00000094;
+      font-size: 18px;
+    }
+  }
+}
+
+::ng-deep {
+  .mat-chip.mat-standard-chip {
+    background-color: #000000 !important;
+    color: #fff !important;
+  }
+  .mat-card-header-text {
+    margin: 0 !important;
+  }
+  .mat-standard-chip {
+    height: auto !important;
+    padding: 5px 12px !important;
+    border-radius: 25px !important;
+}
+}
+ @media (max-width:599px){
+  .project-card {
+    height: auto;
+  }
+ }

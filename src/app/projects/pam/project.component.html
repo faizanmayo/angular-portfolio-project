@@ -1,0 +1,34 @@
+
+  <div fxLayout="row wrap" fxFlex="100"
+  fxLayoutAlign="space-between center"
+  fxLayout.lt-md="column" fxLayoutAlign.lt-md="center center"
+  >
+    <mat-card [style.backgroundColor]="project.bgcolor" *ngFor="let project of projects"
+    class="project-card" fxFlex="45" fxFlex.lt-md="100"
+    >
+      <mat-card-header>
+        <div fxLayoutAlign="space-between" fxFlex="100">
+          <div>
+            <mat-card-title>{{project.title}}</mat-card-title>
+            <mat-card-subtitle>{{project.date}}</mat-card-subtitle>
+          </div>
+          <div>
+            <img src={{project.image}} width="50" height="50">
+          </div>
+        </div>
+      </mat-card-header>
+      <mat-card-content>
+       <mat-chip-list>
+         <mat-chip>{{project.languages}}</mat-chip></mat-chip-list>
+
+       <p>  {{project.description}}</p>
+       <div  fxLayout="column" class="card-footer">
+        <h2 fxLayoutAlign="space-between"><span>Organization</span>{{project.company}}</h2>
+        <h2 fxLayoutAlign="space-between"><span>Role</span>{{project.designation}}</h2>
+       </div>
+      </mat-card-content>
+  </mat-card>
+  </div>
+
+
+

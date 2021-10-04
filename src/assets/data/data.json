@@ -1,0 +1,67 @@
+[
+    {  "bgcolor": "rgb(249, 223, 207)",
+      "title": "Covid-19 tracker",
+      "date": "Final year Project (2020)",
+      "languages": "HTML5, CSS3, Bootstrap, Javascript , PHP & mySQL.",
+      "description": "Covid-19 tracker is a website which shows live numbers of coronavirus  death , recovery and total numbers of cases in Pakistan. also shows symptoms related to coronavirus as well as preventions against coronavirus .."  ,
+      "company": "UMT",
+       "designation": "Design front-end",
+       "image": "assets/COVID-19-icon-2FINAL.png"
+    },
+
+    {
+      "bgcolor": "rgb(255, 214, 214)",
+      "title": "PAM (Privileged Access Management)",
+      "date": "SEP 2021 • PRESENT(A YEAR)",
+      "languages": "Angular, Typescript, Postgress, Express, Unit Testing, Sentry",
+      "description": "RevBits Privileged Access Management is a six-in-one solution that includes privileged access, privileged session, password, service accounts, key and certificate management, as well as extensive session logging that captures keystrokes and video. RevBits Privileged Access Management native clients are available for common operating systems."  ,
+      "company": "Invozone",
+       "designation": "Front-end Developer",
+       "image": "assets/Revbits-Privileged-Access-Management.png"
+    },
+    {  "bgcolor": "#00bcd4",
+      "title": "libere App",
+      "date": "jan 2021",
+      "languages": "Ionic, Angular, firebase, HTML, SCSS",
+      "description": "Libere is a ecomerce type water dilvery andriod app. it give home services to the user libere is an italian water dilevery company."  ,
+      "company": "Interstellus",
+       "designation": "Ionic Developer",
+       "image": "assets/splash.png"
+    },
+
+    {  "bgcolor": "rgb(221, 231, 255)",
+      "title": "Pizza Ordering Delivery",
+      "date": "dec 2020 ",
+      "languages": "Netbeans , Java & mySQL",
+      "description": "pizza ordering delivery is a desktop application. User can select pizza size by clicking on radio buttons after that user can enter customer total payment then click on enter button it shows customer balance with print receipt as well as user can delete the items .",
+      "company": "UMT",
+       "designation": "Software Engineer",
+       "image": "assets/pizza.png"
+    },
+
+    {  "bgcolor": "#caf0f0d1",
+      "title": "Stylerest.com",
+      "date": "dec 2020 ",
+      "languages": "Open cart theme , Adobe Photoshop",
+      "description": "Style rest is an E-commerce website of men clothing  brands like charcoal, Monark etc .",
+      "company": "UMT",
+       "designation": "Software Engineer",
+       "image": "assets/suit.png"
+    }
+,
+    {  "bgcolor": "#8dfc8da8",
+      "title": "Other Projects",
+      "date": "dec 2020 ",
+      "languages": "PSD to HTML , Pixel Perfection",
+      "description": "I have also Experience in Psd Slicing & Pixel Perfection. I completed many other projects like, travel agencies website design, admin panel design,portfolio designs, ecommerce websites designs etc..",
+      "company": "Open source",
+       "designation": "Software Engineer",
+       "image": "assets/psd-open-file-format.png"
+    }
+
+]
+
+
+
+
+
